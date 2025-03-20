@@ -24,28 +24,28 @@ const VideoGrid = () => {
       image: "fighter.jpg",
     },
     {
-      title: "Endgame | Robert Downy Junior",
+      title: "Avengers: Endgame | Robert Downy Junior",
       channelName: "T-Series",
       views: "280M",
       timestamp: "8 months ago",
       image: "endgame.jpg",
     },
     {
-      title: "kalki | Prabhas",
+      title: "Kalki 2898 AD | Prabhas",
       channelName: "T-Series",
       views: "75M",
       timestamp: "3 months ago",
       image: "kalki.jpg",
     },
     {
-      title: "kgf | Yash",
+      title: "K.G.F: Chapter 2 | Yash",
       channelName: "T-Series",
       views: "322M",
       timestamp: "1 years ago",
       image: "kgf.jpg",
     },
     {
-      title: "John Wick | Keanu Reevs",
+      title: "John Wick | Keanu Reeves",
       channelName: "T-Series",
       views: "900M",
       timestamp: "8 months ago",
@@ -61,7 +61,7 @@ const VideoGrid = () => {
   ];
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {videos.map((video) => (
           <div>
             <VideoCard
